@@ -72,3 +72,8 @@ And click on a search results button to Add Market <br>
 I see a flash message saying that the vendor was added to a new market <br>
 I'm taken back to the vendor show page <br>
 * Note: This vendor should appear on the newly added market's show page. <br>
+
+![Wireframe for markets search](/images/market_search.png)
+![Wireframe for markets search results](/images/market_search_results.png)
+![Wireframe for markets search sad path](/images/market_search_sad_path.png)
+
