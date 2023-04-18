@@ -33,6 +33,8 @@ I see all markets listed with their name, city and state<br>
 When I click a market's name <br>
 I'm taken to that market's show page '/markets/:id' <br>
 
+![Wireframe for /markets index](/images/markets_index.png)
+
 ### User Story 2 - Markets Show Page
 As a visitor, <br>
 When I visit a market's show page 'markets/:id' <br>
@@ -40,10 +42,14 @@ I see that market's name and readable address <br>
 And I also see a list of all the Vendors that are at that market <br>
 Each vendor name is a link to that vendor's show page <br>
 
+![Wireframe for /markets show](/images/markets_show.png)
+
 ### User Story 3 - Vendor Show Page
 As a visitor <br>
 When I visit a vendor's show page 'vendors/:id' <br>
 I see that vendor's name, contact information, whether they accept credit, and a description of what they sell <br>
+
+![Wireframe for /vendors show](/images/vendors_show.png)
 
 ## Extra Practice
 If you have time or want extra practice, complete the following user stories
