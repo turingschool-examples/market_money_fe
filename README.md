@@ -30,7 +30,7 @@ port        ENV.fetch("PORT") { 5000 }
 As a visitor, <br>
 When I visit '/markets' <br>
 I see all markets listed with their name, city and state<br>
-When I click a market's name <br>
+When I click a button to see more info on that market <br>
 I'm taken to that market's show page '/markets/:id' <br>
 
 ![Wireframe for /markets index](/images/markets_index.png)
