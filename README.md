@@ -11,7 +11,7 @@ Congratulations! You've written your first API. Just like the API you consumed f
 
 ## Setup
 
-Just like your week 1 project, this will be a new Rails app. You should create your own FE with `rails new market_money_fe -T --database=postgresql --skip-spring --skip-turbolinks
+Just like your week 1 project, this will be a new Rails app. You should create your own FE with `rails new market_money_fe -T --database=postgresql --skip-spring --skip-turbolinks`
 
 In `/config/puma.rb`, you'll need to change the port from 3000 to 5000. This should be on or around line 12.
 
