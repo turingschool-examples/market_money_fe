@@ -13,7 +13,7 @@ Congratulations! You've written your first API. Just like the API you consumed f
 
 Just like your week 1 project, this will be a new Rails app. You should create your own FE with `rails new market_money_fe -T --database=postgresql --skip-spring --skip-turbolinks`
 
-In `/config/puma.rb`, you'll need to change the port from 3000 to 5000. This should be on or around line 12.
+In `/config/puma.rb`, you'll need to change the port from 3000 to 5000. This should be on or around line 18.
 
 We do this because Market Money is not in production or hosted somewhere other than localhost. If Market Money is running on port 3000, our front end will need to have a different port so they can run at the same time. Now, when we do `rails s`, our front end application will automatically use port 5000. You can also do this manually every time you start your server by passing the port number with a `-p` flag like so:
 `rails s -p 5000`. You should see that your server is "listening on tcp://localhost:5000" now instead of the usual 3000.
